@@ -1,9 +1,26 @@
 #!/usr/bin/perl
 
 =encoding UTF-8
+
 =cut
 
+# PODNAME: script to download files from git version control system.
+
 =head1 DESCRIPTION
+
+    $ download --help
+    download git_repo_url <some-arg>
+            --commit STR       sha1, branch or tag. Default HEAD
+            --include_re STR   regular expression to filter number of files.
+                               Default ^(?!\.git/)
+            --to_dir STR       directory to save files. Default ./
+            --help             print usage message and exit
+
+The `git` binary is needed for the script to work.
+
+Sript exits with non zero code in case of error.
+
+The most common way of using this script is to specify --include_re ^lib/
 
 =cut
 
