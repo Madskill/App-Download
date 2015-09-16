@@ -60,6 +60,8 @@ The output will be something like:
     Copying files
     lib/SQL/Easy.pm
 
+The `git` binary is needed for the script to work.
+
 =cut
 
 1;
