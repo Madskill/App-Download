@@ -22,7 +22,7 @@ but I need them in my private projects. So this is the workflow I'm using:
  * install everything what is needed for the project and for the private
 libraries with L<Carton>
 
- * use scrip `download` to download the source code of all my private
+ * use script `download` to download the source code of all my private
 libraries that are needed for the project.
 
 So, this how to use this scipt (here I'm using my public library just for

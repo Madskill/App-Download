@@ -18,7 +18,7 @@
 
 The `git` binary is needed for the script to work.
 
-Sript exits with non zero code in case of error.
+Script exits with non zero code in case of error.
 
 The most common way of using this script is to specify --include_re ^lib/
 
